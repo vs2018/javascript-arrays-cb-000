@@ -27,7 +27,7 @@ var removeElementFromBeginningOfArray = (array) => {
 
 var destructivelyRemoveElementFromEndOfArray = (array) => array.pop()
 
-var removeElementFromBeginningOfArray = (array) => {
+var removeElementFromEndOfArray = (array) => {
   array.slice(1)
   return array
 }
