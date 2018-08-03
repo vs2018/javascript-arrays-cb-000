@@ -25,7 +25,7 @@ var removeElementFromBeginningOfArray = (array) => {
   return array
 }
 
-var destructivelyRemoveElementFromBeginningOfArray = (array) => array.unshift
+var destructivelyRemoveElementFromEndOfArray = (array) => array.unshift
 
 
 
