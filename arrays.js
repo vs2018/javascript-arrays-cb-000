@@ -12,7 +12,7 @@ var addElementToEndOfArray = (array, element) => [element, ...array]
 
 
 var destructivelyAddElementToEndOfArray = (array, element) => {
-  array.unshift(element)
+  array.push(element)
   return array
 }
 
