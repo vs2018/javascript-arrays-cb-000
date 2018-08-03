@@ -42,7 +42,7 @@ var removeElementFromBeginningOfArray = (array) => {
 
 }
 
-var removeElementFromBeginningOfArray = (array) => {
+var destructivelyRemoveElementFromEndOfArray = (array) => {
   return array.slice(1)
 
 }
