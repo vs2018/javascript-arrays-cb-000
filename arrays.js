@@ -38,8 +38,8 @@ var destructivelyRemoveElementFromBeginningOfArray = (array) => {
 }
 
 var removeElementFromBeginningOfArray = (array) => {
-  array.shift()
-  return array
+  array.slice(1)
+
 }
 
 
