@@ -48,6 +48,12 @@ var destructivelyRemoveElementFromEndOfArray = (array) => {
 
 }
 
+var destructivelyRemoveElementFromEndOfArray = (array) => {
+  array.pop()
+  return array
+
+}
+
 
 
 
