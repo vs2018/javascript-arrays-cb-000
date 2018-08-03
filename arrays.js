@@ -25,6 +25,9 @@ var removeElementFromBeginningOfArray = (array) => {
   return array
 }
 
+var destructivelyRemoveElementFromBeginningOfArray = (array) => array.unshift
+
+
 
 
 // function addElementToBeginningOfArray (a, e) {
