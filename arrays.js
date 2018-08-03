@@ -20,6 +20,7 @@ var accessElementInArray = (array, index) => array[index]
 
 var destructivelyRemoveElementFromBeginningOfArray = (array) => array.unshift
 
+var destructivelyRemoveElementFromBeginningOfArray = (array) => array.unshift
 
 
 
