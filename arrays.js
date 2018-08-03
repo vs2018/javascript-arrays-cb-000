@@ -18,7 +18,7 @@ var destructivelyAddElementToEndOfArray = (array, element) => {
 
 var accessElementInArray = (array, index) => array[index]
 
-var addElementToEndOfArray = (array, element) => [...array, element]
+var destructivelyRemoveElementFromBeginningOfArray = (array, element) => [...array, element]
 
 
 
