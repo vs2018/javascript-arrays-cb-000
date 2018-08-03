@@ -33,7 +33,7 @@ var removeElementFromEndOfArray = (array) => {
 }
 
 var destructivelyRemoveElementFromBeginningOfArray = (array) => {
-  array.unshift
+  array.shift()
   return array
 }
 
