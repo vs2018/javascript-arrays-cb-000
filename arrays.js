@@ -20,7 +20,10 @@ var accessElementInArray = (array, index) => array[index]
 
 var destructivelyRemoveElementFromBeginningOfArray = (array) => array.unshift
 
-var removeElementFromBeginningOfArray = (array) => array.unshift
+var removeElementFromBeginningOfArray = (array) => {
+  array.slice(1)
+  return array
+}
 
 
 
